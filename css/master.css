@@ -1,29 +1,122 @@
- a 
-{ 
- color:#00d4ff;
-}
-
- a:hover 
-{ 
- color:purple;
-}
-
- body
-{ 
- background-color:#090979;
- color:#ffffff;
- text-align:center;
-}
-
- h1
+body
 {
- margin-top:1rem;
- margin-bottom:1rem;
+	background-color: #cccccc;
+	background-image: linear-gradient(to left, blue, white);
+	text-align: center;
+}
+
+h1
+{
+ color: white;
+ background-image: linear-gradient(to right, blue, white);
+ width: auto;
+ text-align: center;
+ margin: 0px;
+ padding: 0px; 
+ border: 2px solid white;
 }
 
 h2
 {
- color:#00d4ff;
- margin-top:1rem;
- margin-bottom:1rem;
+ color: white;
+ background-image: linear-gradient(to right, blue, white);
+ width: auto;
+ text-align: center; 
+ margin: 0px;
+ padding: 0px; 
+ border: 2px solid white;
+}
+
+h1:hover
+{
+ background-image: radial-gradient(lightblue, white);
+ color: black;
+ margin: 0px;
+ padding: 0px;
+ border: 2px solid white;
+ cursor: pointer;
+}
+
+h2:hover
+{
+ background-image: radial-gradient(lightblue, white);
+ color: black;
+ margin: 0px;
+ padding: 0px;
+ cursor: pointer;
+}
+
+#dp
+{
+	padding: 10px;
+	opacity: 0.5;
+	margin: 5px;
+	box-sizing: border-box;
+}
+#dp:hover
+{
+	padding: 10px;
+	opacity: 1;
+	margin: 5px;
+	border: 2px solid white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+#about:hover
+{
+background-image: radial-gradient(lightblue, white);
+ color: blue;
+ height: 40px;
+ margin: 5px 0px 5px 0px;
+ padding: 0px 5px 0px 5px;
+ border: 1px solid white;
+ box-sizing: border-box;
+ cursor: pointer;
+}
+#about
+{
+ background: lightblue;
+ color: black;
+ height: 40px;
+ margin: 5px 0px 5px 0px;
+ padding: 0px 5px 0px 5px;
+ border: 1px solid white;
+ box-sizing: border-box;
+}
+
+#social:hover
+{
+background-image: radial-gradient(lightblue, white);
+ color: blue;
+ height: 80px;
+ padding: white;
+ margin:5px 0px 0px 0px;
+ border: 1px solid white;
+ box-sizing: border-box;
+ text-align: center;
+ cursor: pointer;
+ list-style-type: none;
+} 
+#social
+{
+ background: lightblue;
+ color: black;
+ height: 80px;
+ padding: white;
+ margin:5px 0px 0px 0px;
+ border: 1px solid white;
+ box-sizing: border-box;
+ text-align: center;
+ list-style-type: none;
+} 
+
+
+#footer
+{
+	text-align: center;
+	color: black;
+	padding: 0px;
+	margin: 0px;
+	
 }
