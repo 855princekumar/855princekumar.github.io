@@ -1,122 +1,179 @@
+*
+{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
 body
 {
-	background-color: #cccccc;
-	background-image: linear-gradient(to left, blue, white);
-	text-align: center;
+    background-image: radial-gradient(darkgreen, black) ; /* set the background color here */
+    color: white; /* set the text color to black here */
+    font-family: Arial, Helvetica, sans-serif; /* set the font here */
+    text-align: center; /* set the text alignment here */
+
+}
+
+a
+{
+	color: white;
+	padding: 0px;
+}
+
+a:hover
+{
+	background-image: radial-gradient(darkgreen, black) 
+	color: white;
+	padding: 5px;
 }
 
 h1
 {
- color: white;
- background-image: linear-gradient(to right, blue, white);
- width: auto;
- text-align: center;
- margin: 0px;
- padding: 0px; 
- border: 2px solid white;
+	border: 1px solid white;
+	margin: 10px;
+	padding: 5px;
 }
 
-h2
+ul
 {
- color: white;
- background-image: linear-gradient(to right, blue, white);
- width: auto;
- text-align: center; 
- margin: 0px;
- padding: 0px; 
- border: 2px solid white;
+	list-style-type: none;
 }
 
-h1:hover
+h2 
 {
- background-image: radial-gradient(lightblue, white);
- color: black;
- margin: 0px;
- padding: 0px;
- border: 2px solid white;
- cursor: pointer;
+	margin: 10px;
+	padding: 5px;
+	font-style: italic;
 }
 
-h2:hover
+#about1
 {
- background-image: radial-gradient(lightblue, white);
- color: black;
- margin: 0px;
- padding: 0px;
- cursor: pointer;
+	background-color: black; 
+	color: white;
+	text-align: center;
+	height: auto;
+	width: 50%;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid white;
+	float: left;
+	opacity: 0.5;
 }
+#about1:hover
+{
+	background-image: linear-gradient(white, red); 
+	color: black;
+	text-align: center;
+	height: auto;
+	width: 50%;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid white;
+	opacity: 1.0
+}
+
+#social1
+{
+    background-color: black; 
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	height: auto;
+	width: 50%;
+	clear: both;
+	border: 2px solid white;
+	position: relative;
+	left: 150px;
+	opacity: 0.5;
+}
+#social1:hover
+{
+	background-image: linear-gradient(white, green); 
+	color: black;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	height: auto;
+	width: 50%;
+	clear: both;
+	border: 2px solid white;
+	position: relative;
+	left: 150px;
+	opacity: 1.0;
+}
+
+#contact
+{
+	background-color: black; 
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	margin: 10px;
+	height: auto;
+	width: 50%;
+	border: 2px solid white;
+    float: right;
+    opacity: 0.5;
+}
+#contact:hover
+{
+	background-image: linear-gradient(white, lightblue); 
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	margin: 10px;
+	height: auto;
+	width: 50%;
+	border: 2px solid white;
+	opacity: 1.0;
+}
+
 
 #dp
 {
-	padding: 10px;
-	opacity: 0.5;
+	border: 1px solid white;
+	padding: 5px;
 	margin: 5px;
-	box-sizing: border-box;
+	opacity: 0.5;
 }
 #dp:hover
 {
-	padding: 10px;
-	opacity: 1;
-	margin: 5px;
-	border: 2px solid white;
-	box-sizing: border-box;
+	opacity: 1.0;
+}
+
+
+#l1:hover
+{
+	color: white;
+	background-image: radial-gradient(darkgreen, black); 
 	cursor: pointer;
 }
-
-#about:hover
+#l2:hover
 {
-background-image: radial-gradient(lightblue, white);
- color: blue;
- height: 40px;
- margin: 5px 0px 5px 0px;
- padding: 0px 5px 0px 5px;
- border: 1px solid white;
- box-sizing: border-box;
- cursor: pointer;
+	color: white;
+	background-image: radial-gradient(darkgreen, black); 
+	cursor: pointer;
 }
-#about
+#l3:hover
 {
- background: lightblue;
- color: black;
- height: 40px;
- margin: 5px 0px 5px 0px;
- padding: 0px 5px 0px 5px;
- border: 1px solid white;
- box-sizing: border-box;
+	color: white;
+	background-image: radial-gradient(darkgreen, black); 
+	cursor: pointer;
 }
-
-#social:hover
+#l4:hover
 {
-background-image: radial-gradient(lightblue, white);
- color: blue;
- height: 80px;
- padding: white;
- margin:5px 0px 0px 0px;
- border: 1px solid white;
- box-sizing: border-box;
- text-align: center;
- cursor: pointer;
- list-style-type: none;
-} 
-#social
-{
- background: lightblue;
- color: black;
- height: 80px;
- padding: white;
- margin:5px 0px 0px 0px;
- border: 1px solid white;
- box-sizing: border-box;
- text-align: center;
- list-style-type: none;
-} 
+	color: white;
+	background-image: radial-gradient(darkgreen, black); 
+	cursor: pointer;
+}
 
 
 #footer
 {
-	text-align: center;
-	color: black;
-	padding: 0px;
-	margin: 0px;
-	
+	clear: both;
+	margin: 10px;
 }
+
