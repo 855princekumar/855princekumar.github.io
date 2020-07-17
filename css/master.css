@@ -119,7 +119,7 @@ h2
 }
 #contact:hover
 {
-	background-image: linear-gradient(white, lightblue); 
+	background-image: linear-gradient(white, blue); 
 	color: black;
 	text-align: center;
 	padding-top: 0px;
